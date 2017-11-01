@@ -1,0 +1,27 @@
+{
+  "name": "clearblade-q-promise-library",
+  "version": "1.0.0",
+  "description": "Promise library for JavaScript, ClearBlade Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rreinold/clearblade-q-promise-library.git"
+  },
+  "keywords": [
+    "q",
+    "promises",
+    "async",
+    "clearblade",
+    "platform",
+    "iot"
+  ],
+  "author": "Robert Reinold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rreinold/clearblade-q-promise-library/issues"
+  },
+  "homepage": "https://github.com/rreinold/clearblade-q-promise-library#readme"
+}
