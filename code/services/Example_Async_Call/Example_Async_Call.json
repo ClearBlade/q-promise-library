@@ -1,0 +1,10 @@
+{
+    "current_version": 15,
+    "dependencies": "http,q",
+    "logging_enabled": "false",
+    "name": "Example_Async_Call",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "Example_Async_Call.js"
+}
