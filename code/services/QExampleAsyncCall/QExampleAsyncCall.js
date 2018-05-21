@@ -1,4 +1,9 @@
-function Example_Async_Call(req, resp){
+/**
+ * This is a sample service to show how to use Q.defer() in the Q Promise library
+ * http://documentup.com/kriskowal/q#the-beginning 
+ * 
+ */
+function QExampleAsyncCall(req, resp){
     
     function requestPopulationData() {
         var request = Requests();

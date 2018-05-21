@@ -1,10 +1,10 @@
 {
     "current_version": 15,
-    "dependencies": "http,q",
+    "dependencies": "http,QPromiseLib",
     "logging_enabled": "false",
-    "name": "Example_Async_Call",
+    "name": "QExampleAsyncCall",
     "params": [],
     "permissions": {},
     "run_user": "",
-    "source": "Example_Async_Call.js"
+    "source": "QExampleAsyncCall.js"
 }
