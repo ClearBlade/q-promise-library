@@ -2,7 +2,7 @@
     "api": "",
     "dependencies": "",
     "description": "The 'q' JavaScript library for promises",
-    "name": "q",
-    "version": 2,
+    "name": "QPromiseLib",
+    "version": null,
     "visibility": "system"
 }

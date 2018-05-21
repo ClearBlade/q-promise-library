@@ -2,7 +2,7 @@
     "auth": true,
     "description": "",
     "messaging_url": "platform.clearblade.com:1883",
-    "name": "PackageDev_q",
+    "name": "q-promise",
     "platform_url": "https://staging.clearblade.com",
     "system_key": "9cf8c89f0bcaaba381d4e2b38108",
     "system_secret": "9CF8C89F0BDADDC1D4DDD8D6EEEA01"

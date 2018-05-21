@@ -1,4 +1,8 @@
-
+/**
+ * This is a modified version to be able to support on ClearBlade platform. 
+ * There is no support for timeouts and long stacks of promises.
+ * A diff can be done with the [API-Reference code](https://github.com/kriskowal/q) and this library to get exact details.
+ */
 
 (function (definition) {
    
