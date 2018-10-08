@@ -4,6 +4,14 @@
  * 
  */
 function QExampleAsyncCall(req, resp){
+  
+    requestPopulationData()
+        .then(function (value) {
+                extractYearlyData(value);
+            }, function (reason) {
+                resp.error("promise failed because: "+reason);
+            }
+        );
     
     function requestPopulationData() {
         var request = Requests();
@@ -25,12 +33,13 @@ function QExampleAsyncCall(req, resp){
         return deferred.promise;
     }
     
-    
-    requestPopulationData()
-        .then(function (value) {
-                resp.success(value);
-            }, function (reason) {
-                resp.error("promise failed because: "+reason);
-            }
-        );
+    function extractYearlyData(raw){
+        try{
+            var json = JSON.parse(raw);
+            resp.success(json.data)
+        }
+        catch(e){
+            resp.error("Failed to parse population data: " + JSON.stringify(e))
+        }
+    }
 }
